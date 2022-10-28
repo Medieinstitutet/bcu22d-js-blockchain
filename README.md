@@ -15,8 +15,8 @@ Hämta ut den branch du är intresserad av.
 
 ```zsh
 git pull
-git checkout lesson-1
-cd 01-intro
+git checkout lesson-2
+cd 02-nubers
 ```
 
 osv.
