@@ -13,14 +13,16 @@ console.log("Is age the same as maxAge?", age == maxAge);
 console.log("Is age NOT the same as minAge?", age != minAge);
 console.log("Is age NOT the same as maxAge?", age != maxAge);
 
-/* Strict Comparisons */
+/* Loose vs Strict Comparisons */
 let age2 = 25;
 
+/* två operators gör en "loose comparison" */
 console.log("age == 25", age2 == 25); // true
 console.log('age == "25"', age2 == "25"); // true
 console.log("age != 25", age2 != 25); // false
 console.log('age != "25"', age2 != "25"); // false
 
+/* medan tre operators gör en "strict comparison", dvs value och type */
 console.log("age === 25", age2 === 25); // true
 console.log('age === "25"', age2 === "25"); // false
 console.log("age !== 25", age2 !== 25); // false

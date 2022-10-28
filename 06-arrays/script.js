@@ -1,3 +1,7 @@
+/**
+ * Skapa array:er på sätt. Antingen med new Array() eller [].
+ */
+
 let emptyArray = new Array(); // creates empty Array
 console.log(emptyArray);
 
@@ -7,13 +11,18 @@ console.log(setArray);
 let startArray = new Array(9, 5, 235, "Hello", 23);
 console.log(startArray);
 
+//________________
+
 let students = ["Luke", "Leia", "Vader"];
 console.log(students);
 console.log(students[2]);
 
 console.log(students.length);
 
-/* Array methods  */
+//_________________
+
+/* Basic array methods  */
+
 students.push("Yoda"); // Add to end of array
 console.log(students);
 

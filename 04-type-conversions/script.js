@@ -1,3 +1,8 @@
+/**
+ * Type Conversion
+ * https://javascript.info/type-conversions
+ */
+
 let sum = 100;
 console.log("sum", sum, typeof sum);
 
