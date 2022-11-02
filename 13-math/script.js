@@ -49,5 +49,5 @@ is_odd(8); // false
  * Returns a random number between 1-10
  */
 const getRandomNumber = () => {
-
+	return Math.ceil( Math.random() * 10 );
 }
