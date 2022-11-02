@@ -14,17 +14,15 @@ function add() {
 }
 */
 
+/*
 // Function Expression
 const add = function(a, b) {
-	console.log("I'm gonna add these two numbers:", a, b);
-	const sum = a + b;
+	// long version
+	// const sum = a + b;  // sum = 1337
+	// return sum;         // return 1337
 
-	a = a - 1;
-	b = b + 1;
-
-	console.log("The modified numbers are:", a, b);
-
-	return sum;
+	// short version
+	return a + b;       // return 1337
 }
 
 // const fourPlusEight = add(4, 8);
@@ -38,3 +36,25 @@ console.log("res:", res);
 
 console.log("x:", x);
 console.log("y:", y);
+*/
+
+// Function Expression
+const greetUser = function(name = "anonymous", time = "day") {
+	console.log(`Good ${time}, ${name}`);
+}
+
+// greetUser("Johan", "afternoon");
+// greetUser("Pelle");
+// greetUser();
+
+// Arrow Function
+const greetUserArrow = (name = "anonymous", time = "day") => {
+	console.log(`Good ${time}, ${name}`);
+}
+
+// One-line function
+// const addLong = (a, b) => {
+// 	return a + b;
+// }
+
+// const addShort = (a, b) => a + b;
