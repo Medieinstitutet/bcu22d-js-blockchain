@@ -58,3 +58,18 @@ const greetUserArrow = (name = "anonymous", time = "day") => {
 // }
 
 // const addShort = (a, b) => a + b;
+
+const alertMeWhenDoneShopping = () => {
+	alert("I'm done shopping");
+}
+
+const goShopping = (callback) => {
+	console.log("OHHHH SHINY");
+	console.log("LOOK AT ALL THE THINGS");
+	console.log("🤑");
+	console.log("💸");
+
+	callback();
+}
+
+goShopping( alertMeWhenDoneShopping );
